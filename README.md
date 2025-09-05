@@ -32,24 +32,51 @@ Para acceder a cualquiera de las pantallas mencionadas anteriormente, los usuari
 
 
 
-## Instalación
+## 🚀 Instalación
 
 1. Clona este repositorio:
 
-   ```bash
-   git clone https://github.com/Kilopolo/App-Central-React-Native.git
-   cd .\AppCentral\
+```bash
+git clone https://github.com/Kilopolo/App-Central-React-Native.git
+```
 
+2. Entra en la carpeta del proyecto:
 
-2. Instala las dependencias:
-   ```bash
-   npm install
+```bash
+cd .\App-Central-React-Native\
+```
 
-3. Configura Firebase: Configura tu proyecto en Firebase y establece las credenciales en la aplicación para habilitar la autenticación y el almacenamiento de datos.
+3. Instala las dependencias:
 
-4. Inicia la aplicación:
-   ```bash
-   npm start
+```bash
+npm install
+```
+
+4. Configura Firebase:  
+Crea un proyecto en Firebase y establece las credenciales en la aplicación para habilitar la autenticación y el almacenamiento de datos.
+
+5. Inicia la aplicación en modo desarrollo:
+
+```bash
+npx expo start
+```
+
+---
+
+## 📱 Probar la app en tu móvil
+
+1. Instala la app **Expo Go**:
+   - Android (Google Play): https://play.google.com/store/apps/details?id=host.exp.exponent  
+   - iOS (App Store): https://apps.apple.com/app/expo-go/id982107779
+
+2. Escanea el **código QR** que aparece en la terminal o en Metro Bundler cuando ejecutas `npx expo start`.
+
+3. La app se abrirá automáticamente en tu móvil dentro de **Expo Go**.
+
+4. (Opcional) También puedes abrirla en un emulador:
+   - Android: presiona `a` en la terminal de Metro Bundler.
+   - iOS (macOS): presiona `i` en la terminal de Metro Bundler.
+
 
 ## Tecnologías Utilizadas
 React Native: Para el desarrollo de la interfaz de usuario de la aplicación móvil.
