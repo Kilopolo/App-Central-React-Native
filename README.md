@@ -38,6 +38,7 @@ Para acceder a cualquiera de las pantallas mencionadas anteriormente, los usuari
 
    ```bash
    git clone https://github.com/Kilopolo/App-Central-React-Native.git
+   cd .\AppCentral\
 
 
 2. Instala las dependencias:
